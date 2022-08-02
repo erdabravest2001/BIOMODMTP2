@@ -1,0 +1,298 @@
+    <!DOCTYPE html>
+    <html>
+
+
+    <!--Navigation Menu Bar will go here -->
+
+
+    <!---Meet the Team Page-->
+
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <style type="text/css">
+
+    body {
+        font-family: 'Inter';font-size: 50px;
+        text-transform: uppercase;
+        background-color: black;
+    }
+
+    h1 {
+        font-family: 'Inter';font-size: 50px;
+        text-transform: uppercase;
+        background-color: black;
+        color: white;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Inter';font-size: 30px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: white;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .typewriter h4 {
+        font-family: 'Inter';
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+    p {
+       font-family: 'Inter' ;
+        font-size: 20px;
+        text-transform: uppercase;
+        background-color: black;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+
+    .blurb-container p {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .blurb-container h1 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: white;
+        font-weight: bolder;
+        text-decoration: underline;
+
+    }
+
+    .blurb-container h2 {
+        margin-top: 0px;
+        margin-bottom: 2px;
+        color: white;
+        font-weight: bolder;
+    }
+
+
+    button {
+
+      background-color: #248AA1;
+      border: none;
+      border-radius: 90px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+
+    }
+
+    .container{
+        position: relative;
+        text-align: center;
+        color: transparent;
+    }
+
+    .typewriter {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+    .typewriter h4 {
+        color: #ffff;
+        font-family: Inter, sans-serif;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid deepskyblue; /* The typwriter cursor */
+        white-space: pre-wrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation:
+                typing 3.5s steps(30, end),
+                blink-caret .5s step-end infinite;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #248AA1 }
+    }
+
+    .container img {
+      max-width: 100%;
+      filter: brightness(50%)
+    }
+
+    /* The Modal (background) */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      max-height:calc(120vh - 250px);
+      overflow-y: auto;
+      background-color: black;
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background-color: black;
+      margin: auto;
+      padding: 20px;
+      border: 0px solid white;
+      width: 80%;
+      position: center;
+    }
+
+
+    /* The Close Button */
+    .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+
+    .close:hover,
+    .close:focus {
+      font-family: Inter;
+      color: #248AA1 ;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+
+    </style>
+    </head>
+
+
+
+
+    <body>
+
+    <!-- The first part of the page -->
+
+     <div class="container">
+      <img src="images/076C0770.jpg" alt="BIOMOD"/>
+         <div class="typewriter"><h4> Meet The Minds Behind the Design </h4></div>
+    </div>
+
+    </br>
+
+
+    <div style="text-align: center;">
+    <h1> The Memes </h1>
+    </div>
+
+
+    <div style="text-align: center;">
+    <img src="images/meme.jpg", style="border-radius: 100px; scale: 75%"/>
+    </div>
+
+
+    <!-- Button for the Modal  -->
+    <div style="text-align: center;">
+    <button id="myBtn">MEME</button>
+    </div>
+
+
+
+    <!--Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>The Meme Himself </h1>
+          <div style="text-align:center;">
+          <img src="images/meme.jpg"/>
+              </div>
+
+             <div class="blurb-container" >
+                 <h2>
+                     MAJOR:
+                 </h2>
+                 <p>
+                     Memeology
+                 </p>
+             </div>
+              <div class="blurb-container">
+                  <h2>
+                      ROLE:
+                  </h2>
+                  <p>
+                      The Meme
+                  </p>
+              </div>
+              <div class="blurb-container">
+                  <h2>
+                      BLURB:
+                  </h2>
+                  <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                      and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+              </div>
+        </div>
+          </div>
+      </div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+</body>
+
+
+
+<!-- The actual meet the team page --> 
+
+
+
+</html>
